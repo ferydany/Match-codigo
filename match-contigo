@@ -1,0 +1,17 @@
+page/index.js
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-50 text-gray-800">
+      <Head>
+        <title>Match Contigo</title>
+        <meta name="description" content="Conecta con alguien que te comprenda de verdad" />
+      </Head>
+      <main className="p-4 text-center">
+        <h1 className="text-4xl font-bold mb-4">Bienvenido a Match Contigo</h1>
+        <p className="text-lg">Una app pensada para quienes atraviesan ansiedad, depresión o bipolaridad, y buscan una conexión real.</p>
+      </main>
+    </div>
+  );
+}
